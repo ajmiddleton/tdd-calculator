@@ -22,7 +22,6 @@ class Calculator{
     return _.reduce(fractions, sumFractions);
   }
 }
-
 function sumFractions(sum, fraction){
   sum.num *= fraction.den;
   fraction.num *= sum.den;
